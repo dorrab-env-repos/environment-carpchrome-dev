@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:carpchrome/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:carpchrome/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:carpchrome/prow:hmacToken
+segmentWriteKey: vault:carpchrome:segmentWriteKey
